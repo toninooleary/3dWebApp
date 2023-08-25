@@ -16,7 +16,7 @@
 		            skyColor="0.051 0.051 0.051"
 		            />
 		<Transform DEF="CanShadeSmooth_TRANSFORM"
-		           translation="-0.017486 0.000000 0.000000"
+		           translation="0.001134 0.000000 0.000000"
 		           scale="1.000000 1.000000 1.000000"
 		           rotation="0.000000 0.707107 0.707107 3.141593"
 		           >
@@ -28,6 +28,14 @@
 				<Group DEF="group_ME_Cylinder_001">
 					<Shape>
 						<Appearance>
+							<Material DEF="MA_Grey"
+							          diffuseColor="0.800 0.800 0.800"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.000"
+							          shininess="0.500"
+							          transparency="0.0"
+							          />
 						</Appearance>
 						<IndexedFaceSet solid="false"
 						                creaseAngle="4.0000"
